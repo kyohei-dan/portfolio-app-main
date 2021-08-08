@@ -26,7 +26,7 @@ const AboutPage = () => {
 				<SkillsSection skill={"Analytics"} progress={"60%"} width={"60%"} />
 			</div>
 
-			<Tittle title={"Services"} span={"Services"} />
+			<Tittle title={"Works"} span={"Works"} />
 			<div className="servives-container">
 				<ServicesSection
 					image={design}
