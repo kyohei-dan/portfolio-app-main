@@ -10,6 +10,7 @@ const portfolios = [
 		icon1: "ページへ",
 		image: port1,
 		title: "Tool App",
+		lang: "HTML,CSS,JavaScript",
 	},
 	{
 		id: 2,
@@ -18,6 +19,7 @@ const portfolios = [
 		icon1: "ページへ",
 		image: port2,
 		title: "Todo App",
+		lang: "React",
 	},
 	{
 		id: 3,
@@ -26,6 +28,7 @@ const portfolios = [
 		icon1: "ページへ",
 		image: port3,
 		title: "Chat App",
+		lang: "React,Firebase",
 	},
 ];
 
