@@ -1,7 +1,6 @@
 import React from "react";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 const HomePage = () => {
 	return (
@@ -18,9 +17,9 @@ const HomePage = () => {
 					このポートフォリオサイトは、フロント：React を採用しております！
 				</p>
 				<div className="icons">
-					<Link to="test" className="icon-holder">
+					<a href="https://github.com/kyohei-dan" className="icon-holder">
 						<FontAwesomeIcon icon={faGithub} className="icon gh" />
-					</Link>
+					</a>
 				</div>
 			</header>
 		</div>
