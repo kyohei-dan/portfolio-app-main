@@ -43,16 +43,17 @@
 				top: 70%;
 				left: 50%;
 				transform: translate(-50%, -50%);
-				padding: 1rem 2rem;
+				padding: 1rem 3rem;
 				visibility: hidden;
 				li {
 					a {
-						padding: 1rem;
+						padding: 1rem 4rem;
 						text-decoration: none;
 						font-family: inherit;
 						border-radius: 10px;
 						background-color: #037fff;
 						color: white;
+						display: block;
 						&:not(:last-child) {
 							margin-right: 2rem;
 						}
