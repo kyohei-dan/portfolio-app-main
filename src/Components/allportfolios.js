@@ -2,6 +2,7 @@ import port1 from "../img/portImages/tool-app.png";
 import port2 from "../img/portImages/todo-app.png";
 import port3 from "../img/portImages/chat-app.png";
 import port4 from "../img/portImages/note-app.png";
+import port5 from "../img/portImages/web-site.png";
 
 const portfolios = [
 	{
@@ -38,6 +39,15 @@ const portfolios = [
 		icon1: "Go",
 		image: port4,
 		title: "Note App",
+		lang: "React",
+	},
+	{
+		id: 5,
+		category: "Web site",
+		link1: "https://react-site-portfolio.vercel.app/",
+		icon1: "Go",
+		image: port5,
+		title: "Web site",
 		lang: "React",
 	},
 ];
